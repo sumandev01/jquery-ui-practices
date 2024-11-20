@@ -1,0 +1,69 @@
+body{
+	padding-bottom: 200px;
+}
+.draggable_1{
+	width: 200px;
+	height: 200px;
+	background: green;
+}
+
+#droppable{
+	width: 400px;
+	height: 400px;
+}
+
+
+#resizable{
+	width: 300px;
+	height: 200px;
+	background: green;
+}
+#resizable h2{
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	background: gray;
+}
+#selectable{}
+#selectable .ui-selected{
+	background: blueviolet;
+}
+#selectable li{
+	margin-bottom: 5px;
+	padding: 10px 20px;
+	width: 500px;
+	font-size: 20px;
+	border: 1px solid #000000;
+	cursor: pointer;
+	background: red;
+	color: white;
+}
+#sortable{}
+#sortable li{
+	margin-bottom: 5px;
+	padding: 10px 20px;
+	border: 1px solid black;
+	background: white;
+}
+#sortable li i{
+	margin-right: 20px;
+}
+#sortable li span{}
+
+.accordion{}
+.accordion h3{
+	margin: 0 !important;
+	margin-top: 5px !important;
+	padding: 10px 20px !important;
+	font-size: 25px !important;
+	color: black;
+	background: #e0e0e0;
+	cursor: pointer;
+	border: 1px solid black;
+}
+.accordion_body{
+	padding: 20px;
+	background: #cdf146;
+	border: 1px solid black;
+}
+#accordion2 .accordion_body{}

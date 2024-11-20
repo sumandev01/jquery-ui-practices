@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jquery UI</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/themes/base/jquery-ui.min.css">
+	<!-- fontawesome icon -->
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+	<!-- Bootstrap icon -->
+	<link rel="stylesheet" href="css/bootstrap-icons.min.css">
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- style css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- media query css -->
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	
+	<section>
+		<div class="container">
+			<!-- draggable -->
+			<div class="draggable_1">
+				<p>draggable_1</p>
+			</div>
+			<!-- droppable -->
+			<div id="droppable" class="ui-widget-header">
+				<p id="drop_p">droppable</p>
+			</div>
+			<div class="py-5"></div>
+			<!-- resizable -->
+			<div id="resizable">
+				<h2>Resizable</h2>
+			</div>
+			<div class="py-5"></div>
+			<!-- selectable -->
+			<h2>Selectable</h2>
+			<ul id="selectable" class="list-inline">
+				<li>item 1</li>
+				<li>item 2</li>
+				<li>item 3</li>
+				<li>item 4</li>
+				<li>item 5</li>
+				<li>item 6</li>
+				<li>item 7</li>
+				<li>item 8</li>
+			</ul>
+			<div class="py-5"></div>
+			<!-- Shortable -->
+			<h2>Sortable</h2>
+			<ul id="sortable" class="list-inline">
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 1</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 2</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 3</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 4</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 5</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 6</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 7</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 8</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 9</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 10</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 11</span></li>
+				<li><i class="fa-solid fa-arrows-up-down"></i><span>Item 12</span></li>
+			</ul>
+			<div class="py-5"></div>
+			<!-- Accordion Exm 1 -->
+			<h2>Accordion Exm 1</h2>
+			<div class="accordion" id="accordion1">
+				<h3>Item 1</h3>
+					<div class="accordion_body">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor labore quod dicta totam molestiae distinctio vitae error tenetur tempore?</p>
+					</div>
+				<h3>Item 2</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet dicta culpa aperiam laborum quibusdam consectetur labore neque pariatur, quis, repudiandae.</p>
+					</div>
+				<h3>Item 3</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				<h3>Item 4</h3>
+					<div class="accordion_body">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur labore, voluptatem asperiores dolore in fuga necessitatibus perspiciatis, sed ad excepturi? Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Maiores optio dignissimos temporibus similique, fugit, sit accusantium repellendus magnam voluptatibus ex beatae totam aperiam atque ipsa enim, hic necessitatibus exercitationem eligendi!</p>
+					</div>
+			</div>
+			<div class="py-5"></div>
+			<!-- Accordion Exm 2 -->
+			<h2>Accordion Exm 2</h2>
+			<div class="accordion" id="accordion2">
+				<h3>Item 1</h3>
+					<div class="accordion_body">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolor labore quod dicta totam molestiae distinctio vitae error tenetur tempore?</p>
+					</div>
+				<h3>Item 2</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet dicta culpa aperiam laborum quibusdam consectetur labore neque pariatur, quis, repudiandae.</p>
+					</div>
+				<h3>Item 3</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				<h3>Item 4</h3>
+					<div class="accordion_body">
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur labore, voluptatem asperiores dolore in fuga necessitatibus perspiciatis, sed ad excepturi? Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Maiores optio dignissimos temporibus similique, fugit, sit accusantium repellendus magnam voluptatibus ex beatae totam aperiam atque ipsa enim, hic necessitatibus exercitationem eligendi!</p>
+					</div>
+			</div>
+			<div class="py-5"></div>
+			<!-- Accordion Exm 3 -->
+			<h2>Accordion sortable Exm 3</h2>
+			<div class="accordion" id="accordion3">
+				<div class="group">
+					<h3 class="accordion_title">Item 1</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				</div>
+				<div class="group">
+					<h3 class="accordion_title">Item 2</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				</div>
+				<div class="group">
+					<h3 class="accordion_title">Item 3</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				</div>
+				<div class="group">
+					<h3 class="accordion_title">Item 4</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				</div>
+				<div class="group">
+					<h3 class="accordion_title">Item 5</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				</div>
+				<div class="group">
+					<h3 class="accordion_title">Item 6</h3>
+					<div class="accordion_body">
+						<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Sed ullam facere nam beatae minus, modi nobis laboriosam eaque dolorem quasi.</p>
+					</div>
+				</div>
+			</div>
+			<div class="py-5"></div>
+			<!-- date picker -->
+			<h2>Date Picker Exm 1</h2>
+			<p>Date: <input type="text" id="datepicker1"></p>
+			<div class="py-5"></div>
+			<h2>Date Picker Exm 2</h2>
+			<form action="">
+				<label for="from_date">Form:</label>
+				<input autocomplete="off" type="text" id="from_date" name="from">
+				<label for="to_date">To:</label>
+				<input autocomplete="off" type="text" id="to_date" name="to">
+				<button type="submit" class="btn btn-success">Submit</button>
+			</form>
+			<div class="py-5"></div>
+			<h2>Date Picker Exm 3</h2>
+			<p>Input Date: <input type="text" id="datepicker3"> <span>Show Date full information:</span><input type="text" id="alternative" size="50"></p>
+			<div class="py-5"></div>
+			<!-- datepicker exm 4 -->
+			<h2>Date Picker Exm 4</h2>
+			<input type="text" id="datepicker4">
+			<div class="py-5"></div>
+		</div>
+	</section>
+
+
+	<script src="js/jquery-3.7.1.js"></script>
+	<script src="js/jquery-ui-1.14.1.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
